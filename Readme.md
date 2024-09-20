@@ -38,3 +38,5 @@ https://nodejs-filesystem-mz5x.onrender.com/files
 The /files endpoint retrieves and returns a list of all text files in the same folder.
 
 
+Postman API DOCUMENTATION :
+https://documenter.getpostman.com/view/38201211/2sAXqs8i1w#6462194b-971b-433a-bc45-128b1519685e
