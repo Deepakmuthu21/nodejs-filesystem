@@ -1,20 +1,40 @@
-NodeJs File System
+FileSystem
+StartFragment
+
+NodeJS File System Task
+Base URL
+https://nodejs-filesystem-mz5x.onrender.com﻿
+
+This repository is created for NodeJS File System
+
+This application creates a web server on port 4000 with two endpoints.
+/: Provides instructions to visit /create endpoint to save the current timestamp.
+Saves the current timestamp to a file named dd-mm-yyyy-hh-mm-ss.txt.
+The /files endpoint retrieves and returns a list of all text files in the same folder.
+
+
+GET
+nodejs-filesystem
+Base URL
+https://nodejs-filesystem-mz5x.onrender.com
 
 
 
-This project provides a simple file management system using NodeJs & ExpressJs.
-BASE_URL : https://nodejs-filesystem-qn62.onrender.com
+GET
+create
+/Create :
+https://nodejs-filesystem-mz5x.onrender.com/create
 
-Key Features :
 
-This project returns the current date and time to the specific folder where the file is created.It includes two main Api Endpoints.
+Provides instructions to visit /create endpoint to save the current timestamp.
+Provides instructions to visit /create endpoint to save the current timestamp.
 
-1. {{BASE_URL}}/create - Create a new file with current date and time.
 
-2. {{BASE_URL}}/list - Recover all files in a specific folder.
-All the API's are documented using postman Documentation and Published.
-Published API link : https://documenter.getpostman.com/view/35371272/2sA3rwLYyv
+GET
+files
+/files :
 
-NOTE: I'm deployed the api in render free tier, The initial request is taking time, Please wait a littele longer for initial request
+https://nodejs-filesystem-mz5x.onrender.com/files
+The /files endpoint retrieves and returns a list of all text files in the same folder.
 
-Please find the api deployed url : https://nodejs-filesystem-qn62.onrender.com
+
